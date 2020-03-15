@@ -24,5 +24,7 @@ if(!$result) {
     header("HTTP/1.0 404 Not Found");
     echo "ページが存在しません";
   }
-
+//https://tabelog.com/mie/A2402/A240201/24008434/dtlphotolst/4/smp2/
+//<title>外観写真  : 珈琲舎　沙羅の木 - 大矢知/喫茶店 [食べログ]</title>
+//画像出典：http://
 ?>

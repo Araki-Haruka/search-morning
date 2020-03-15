@@ -71,6 +71,9 @@ if (!empty($prefecture) && !empty($city)) {
             <div class="item">
                 <p><a href="<?php echo $loop["shop_url"]; ?>"><?php echo $loop["shop_name"]; ?></a></p>
                 <!--<p>Category：<?php //echo $loop["category_id"]; ?></p>-->
+                <?php if(!empty($loop["image"])): ?>
+                <img src="image/<?php echo $loop["image"]; ?>">
+                <?php endif; ?>
                 <p>Open：<?php echo date('G:i', strtotime($open)); ?></p>
                 <p>Close：<?php echo date('G:i', strtotime($close)); ?></p>
                 <p>店休日：<?php echo $loop["shop_holiday"]; ?></p>
